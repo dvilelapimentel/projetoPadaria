@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(./assets/fundo__xadez.png);
+    background-attachment:fixed;
+    background-size: cover;
+}
+
+.cabecalho__menu{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+    background-color: #3A98B9;
+    padding: 20px;
+}
+
+.menu{
+    background-color: white;
+    border-radius: 12px;
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Satisfy', cursive;
+}
+
+.titulo{
+    font-family:'Satisfy', cursive ;
+    background: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+div{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+p{
+    font-size: 18px;
+    font-family: 'Satisfy', cursive;
+    color: #675D50;
+}

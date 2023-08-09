@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Crimson+Text&family=Josefin+Sans&family=Space+Grotesk&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(./assets/fundo__xadez.png);
+    background-attachment:fixed;
+    background-size: cover;
+}
+
+.cabecalho__menu{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+    background-color: #3A98B9;
+    padding: 20px;
+}
+
+.menu{
+    background-color: white;
+    border-radius: 12px;
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Satisfy', cursive;
+}
+
+.titulo{
+    font-family:'Satisfy', cursive ;
+    background: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+.fotos__descricao{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.conteudo{
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+}
+
+.produto__nome{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Satisfy', cursive;
+    color: #3A98B9 ;
+}
+
+.produto__descricao{
+    font-size: 18px;
+    font-family: 'Satisfy', cursive;
+    color: #93C6E7;
+}
+
+.produto__preco{
+    font-size: 19px;
+    color: #6096B4;
+    font-weight: bold;
+}
+
