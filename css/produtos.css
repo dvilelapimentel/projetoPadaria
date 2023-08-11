@@ -6,7 +6,7 @@
 }
 
 body{
-    background-image: url(./assets/fundo__xadez.png);
+    background-image: url(../images/fundo__xadez.png);
     background-attachment:fixed;
     background-size: cover;
 }
